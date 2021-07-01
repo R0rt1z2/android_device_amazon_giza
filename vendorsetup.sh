@@ -1,0 +1,3 @@
+add_lunch_combo omni_giza-eng
+add_lunch_combo omni_giza-userdebug
+add_lunch_combo omni_giza-user
