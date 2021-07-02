@@ -55,5 +55,8 @@ RECOVERY_SDCARD_ON_DATA := true
 # Theme
 TW_THEME := portrait_hdpi
 
+# Legacy Properties
+TW_NO_LEGACY_PROPS := true
+
 # Amonet
 TW_HACKED_BL_BUTTON := true
