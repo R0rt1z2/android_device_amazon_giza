@@ -47,7 +47,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
-TARGET_RECOVERY_PIXEL_FORMAT := ABGR_8888
 
 # Internal Storage
 RECOVERY_SDCARD_ON_DATA := true
