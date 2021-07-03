@@ -42,4 +42,4 @@
 
 # External Storages
 /devices/soc/11240000.mmc/mmc_host/mmc*               auto            auto    defaults  voldmanaged=sdcard1:auto,encryptable=userdata
-/devices/soc/11270000.usb/xhci-hcd.*.auto/usb*        auto            auto    defaults  voldmanaged=usbotg:auto
+/devices/platform/mt_usb*                             auto            auto    defaults	voldmanaged=usbotg:auto 
