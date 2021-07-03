@@ -63,3 +63,6 @@ TW_NO_LEGACY_PROPS := true
 
 # Amonet
 TW_HACKED_BL_BUTTON := true
+
+# Recovery Variant
+RECOVERY_VARIANT := twrp
