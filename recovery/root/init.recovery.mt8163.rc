@@ -2,7 +2,9 @@ on boot
     exec /sbin/sh /amonet-fixup.sh
 
 on fs
+	exec /sbin/rm -rf /dev/block/bootdevice
     symlink /dev/block/platform/soc /dev/block/platform/mtk-msdc.0
+	symlink /dev/block/platform/mtk-msdc.0 /dev/block/bootdevice
 
 # This is for preloader update
 on property:amonet.preloader=rw
